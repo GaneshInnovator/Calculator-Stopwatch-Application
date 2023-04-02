@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ganesh P on 1/8/23, 6:45 PM
+  ~ esakkiganeshtsy@gmail.com
+  ~ Last modified 1/8/23, 6:45 PM
+  ~ Copyright (c) 2023.
+  ~ All rights reserved.
+  -->
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stopwatch">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:text="00:00:00"
+            android:textSize="60sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_round"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <ImageButton
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_start"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baseline_play_arrow_24"/>
+            <ImageButton
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_stop"
+                android:background="@android:color/transparent"
+
+                android:src="@drawable/ic_baseline_stop_24"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_share"
+                    android:visibility="invisible"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_baseline_share_26"/>
+            </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="35dp"
+                    android:textSize="20sp"
+                    android:lines="6"
+                    android:maxLines="6"
+                    android:id="@+id/tvinfo"
+                    android:textColor="?android:textColorPrimary"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/robotolight"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:visibility="invisible"
+                    android:textIsSelectable="true"
+                    android:background="@drawable/bg"
+                    />
+
+        </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_menu"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:headerLayout="@layout/header_menu"
+        app:menu="@menu/main_menu"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Ganesh P on 1/14/23, 11:41 PM
+  ~ esakkiganeshtsy@gmail.com
+  ~ Last modified 1/14/23, 11:41 PM
+  ~ Copyright (c) 2023.
+  ~ All rights reserved.
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke android:width="2dp" ></stroke>
+
+    <corners android:topLeftRadius="8sp"
+        android:topRightRadius="8sp"
+        android:bottomLeftRadius="8sp"
+        android:bottomRightRadius="8sp"/>
+
+</shape>

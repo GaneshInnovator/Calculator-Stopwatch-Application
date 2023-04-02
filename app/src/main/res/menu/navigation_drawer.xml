@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ganesh P on 1/8/23, 6:45 PM
+  ~ esakkiganeshtsy@gmail.com
+  ~ Last modified 1/8/23, 6:45 PM
+  ~ Copyright (c) 2023.
+  ~ All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_calc"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:title="calculator"/>
+    <item
+        android:id="@+id/nav_watch"
+        android:icon="@drawable/ic_baseline_timer_24"
+        android:title="StopWatch"/>
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_baseline_star_half_24"
+        android:title="Rate Us"/>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share"/>
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About"/>
+
+
+</menu>

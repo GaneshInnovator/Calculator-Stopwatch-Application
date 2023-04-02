@@ -1,0 +1,17 @@
+<!--
+  ~ Created by Ganesh P on 1/8/23, 6:45 PM
+  ~ esakkiganeshtsy@gmail.com
+  ~ Last modified 1/8/23, 6:45 PM
+  ~ Copyright (c) 2023.
+  ~ All rights reserved.
+  -->
+
+<vector
+    android:height="40dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:width="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/orange"
+        android:pathData="M8,5v14l11,-7z"/>
+</vector>

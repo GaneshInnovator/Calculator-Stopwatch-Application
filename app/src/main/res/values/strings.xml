@@ -1,0 +1,23 @@
+<!--
+  ~ Created by Ganesh P on 1/8/23, 6:45 PM
+  ~ esakkiganeshtsy@gmail.com
+  ~ Last modified 1/8/23, 6:45 PM
+  ~ Copyright (c) 2023.
+  ~ All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">Calculator &amp; StopWatch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">share</string>
+    <string name="stopwatch">StopWatch</string>
+    <string name="calculator">Calculator</string>
+    <string name="exponent" />
+    <string name="square_root_symbol" />
+    <string name="pie_symbol" />
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="contest_giveaways" formatted="false">Contests &amp; Giveaways</string>
+    <string name="copyright"><![CDATA[© 2023 Designed & Developed by Ganesh P]]></string>
+</resources>
